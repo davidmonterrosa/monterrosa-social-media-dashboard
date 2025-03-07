@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import { ToggleSwitch } from 'flowbite-react'
 import './App.css'
 import LargeCard from './components/LargeCard'
 
@@ -11,7 +12,7 @@ function App() {
         <h3>Total Followers: 23,004</h3>
       </div>
       <div>
-
+        <ToggleSwitch/>
       </div>
       <div className='grid md:grid-cols-4 md:gap-4 absolute text-white'>
 

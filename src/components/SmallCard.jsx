@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SmallCard = () => {
+const SmallCard = (props) => {
   return (
     <div>SmallCard</div>
   )

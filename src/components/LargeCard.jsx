@@ -2,7 +2,7 @@ import React from 'react'
 
 const LargeCard = (props) => {
   return (
-    <div className='flex flex-col items-center dark:bg-cardDarkDesaturatedBlue rounded-sm px-14 py-5'>
+    <div className='flex flex-col items-center gap-6 dark:bg-blue-900 rounded-sm px-14 py-5'>
       <div className='flex'>
         <span>
           <img className='aspect-square' src={props.imgSrc} alt='Social Media Icon' />

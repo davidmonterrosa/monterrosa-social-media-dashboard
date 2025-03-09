@@ -8,8 +8,8 @@ import { storeThemeToggle, getSocialMediaData } from './services/services'
 
 
 function App() {
-  const upArrow = '../public/assets/images/icon-up.svg';
-  const downArrow = '../public/assets/images/icon-down.svg';
+  const upArrow = '/assets/images/icon-up.svg';
+  const downArrow = '/assets/images/icon-down.svg';
 
   const [switch1, setSwitch1] = useState(true);
   const [socialMediaData, setSocialMediaData] = useState([]);

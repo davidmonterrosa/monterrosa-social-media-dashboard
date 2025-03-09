@@ -10,7 +10,7 @@ export default {
         brightRed: 'hsl(356, 69%, 56%)',
         Facebook: 'hsl(208, 92%, 53%)',
         Twitter: 'hsl(203, 89%, 53%)',
-        YouTube: 'hsl(348, 97%, 39%)',
+        Youtube: 'hsl(348, 97%, 39%)',
         toggleLight: 'hsl(230, 22%, 74%)',
         veryDarkBlue: 'hsl(230, 17%, 14%)',
         topVeryDarkBlue: 'hsl(232, 19%, 15%)',

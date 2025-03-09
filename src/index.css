@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face {
     font-family: 'Inter';
-    src: url('/public/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+    src: url('/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
 }

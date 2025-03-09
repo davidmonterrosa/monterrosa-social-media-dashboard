@@ -3,12 +3,14 @@ import './App.css'
 import LargeCard from './components/LargeCard'
 import SmallCard from './components/SmallCard'
 import { storeThemeToggle, getSocialMediaData } from './services/services'
-import upArrow from '../public/assets/images/icon-up.svg'
-import downArrow from '../public/assets/images/icon-down.svg'
+// import upArrow from '../public/assets/images/icon-up.svg'
+// import downArrow from '../public/assets/images/icon-down.svg'
 
 
 function App() {
-  
+  const upArrow = '../public/assets/images/icon-up.svg';
+  const downArrow = '../public/assets/images/icon-down.svg';
+
   const [switch1, setSwitch1] = useState(true);
   const [socialMediaData, setSocialMediaData] = useState([]);
   const fetchData = async () => {

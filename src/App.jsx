@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { ToggleSwitch } from 'flowbite-react'
 import './App.css'
 import LargeCard from './components/LargeCard'
 import SmallCard from './components/SmallCard'

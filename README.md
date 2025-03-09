@@ -17,5 +17,4 @@ Goal is to recreate this challenge as close to the design as possible
 
 Peer Reviewed By: Santiago
 
-The responsiveness is fine. Although I wasn't able to test the site on my end. David had shared with me how it appears on his and the cards were displaying the information needed. However, with Vercel issues I cannot view it on my end
->
+The responsiveness is good and the cards are displaying the proper information! The only issue I noticed when shrinking from desktop to tablet is the instagram icon shrinking and disappearing for a bried moment as I shrink down

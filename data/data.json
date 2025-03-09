@@ -4,20 +4,20 @@
         "Name": "Facebook",
         "Image": "/assets/images/icon-facebook.svg",
         "Username": "@nathanf",
-        "FollowerCount": 1987,
+        "FollowerCount": "1987",
         "FollowerLabel": "followers",
         "ChangeIcon": "/assets/images/icon-up.svg",
-        "FollowerChange": 12,
+        "FollowerChange": "12",
         "OverviewDetails": [
           {
             "Label": "Page Views",
-            "Count": 87,
-            "Change": 3
+            "Count": "87",
+            "Change": "3"
           },
           {
             "Label": "Likes",
-            "Count": 52,
-            "Change": -2
+            "Count": "52",
+            "Change": "-2"
           }
         ]
       },
@@ -25,20 +25,20 @@
         "Name": "Twitter",
         "Image": "/assets/images/icon-twitter.svg",
         "Username": "@nathanf",
-        "FollowerCount": 1044,
+        "FollowerCount": "1044",
         "FollowerLabel": "followers",
         "ChangeIcon": "/assets/images/icon-up.svg",
-        "FollowerChange": 99,
+        "FollowerChange": "99",
         "OverviewDetails": [
           {
             "Label": "Retweets",
-            "Count": 117,
-            "Change": 303
+            "Count": "117",
+            "Change": "303"
           },
           {
             "Label": "Likes",
-            "Count": 507,
-            "Change": 553
+            "Count": "507",
+            "Change": "553"
           }
         ]
       },
@@ -49,17 +49,17 @@
         "FollowerCount": "11k",
         "FollowerLabel": "followers",
         "ChangeIcon": "/assets/images/icon-up.svg",
-        "FollowerChange": 1099,
+        "FollowerChange": "1099",
         "OverviewDetails": [
           {
             "Label": "Profile Views",
             "Count": "52k",
-            "Change": 1375
+            "Change": "1375"
           },
           {
             "Label": "Likes",
-            "Count": 5462,
-            "Change": 2257
+            "Count": "5462",
+            "Change": "2257"
           }
         ]
       },
@@ -67,20 +67,20 @@
         "Name": "Youtube",
         "Image": "/assets/images/icon-youtube.svg",
         "Username": "Nathan F.",
-        "FollowerCount": 8239,
+        "FollowerCount": "8239",
         "FollowerLabel": "subscribers",
         "ChangeIcon": "/assets/images/icon-down.svg",
-        "FollowerChange": -144,
+        "FollowerChange": "-144",
         "OverviewDetails": [
           {
             "Label": "Total Views",
-            "Count": 1407,
-            "Change": -12
+            "Count": "1407",
+            "Change": "-12"
           },
           {
             "Label": "Likes",
-            "Count": 107,
-            "Change": -19
+            "Count": "107",
+            "Change": "-19"
           }
         ]
       }

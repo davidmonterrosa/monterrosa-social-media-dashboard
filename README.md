@@ -15,5 +15,6 @@ Goal is to recreate this challenge as close to the design as possible
 
 
 
-Peer Reviewed By:
->
+Peer Reviewed By: Santiago
+
+The responsiveness is good and the cards are displaying the proper information! The only issue I noticed when shrinking from desktop to tablet is the instagram icon shrinking and disappearing for a bried moment as I shrink down

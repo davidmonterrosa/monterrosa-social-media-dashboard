@@ -53,7 +53,7 @@ function App() {
 
       <div className='grid xl:grid-cols-4 xl:gap-8 lg:grid-cols-2 lg:gap-8 gap-6 dark:text-white text-veryDarkBlue md:px-40 px-8 mt-[-100px] mb-12'>
         {
-          socialMediaData.length > 0 ? socialMediaData.map((socialMediaApp, index) => (
+          socialMediaData && socialMediaData.length > 0 ? socialMediaData.map((socialMediaApp, index) => (
               <LargeCard key={index} socialName={socialMediaApp.Name} imgSrc={socialMediaApp.Image} userName={socialMediaApp.Username}   followers={socialMediaApp.FollowerCount} changeIcon={socialMediaApp.ChangeIcon} followerChange={`${socialMediaApp.FollowerChange} Today`} />
             ))
             : null
@@ -64,7 +64,7 @@ function App() {
 
       <div className='grid xl:grid-cols-4 xl:grid-rows-1 xl:gap-8 lg:grid-cols-2 lg:grid-rows-1 lg:gap-8 gap-4 dark:text-white text-veryDarkBlue md:px-40 px-8 mt-6 pb-12'>
         {
-          socialMediaData.length > 0 ? socialMediaData.map((socialMediaApp, index) => (
+          socialMediaData && socialMediaData.length > 0 ? socialMediaData.map((socialMediaApp, index) => (
               <div key={index}>
                 <SmallCard statName={socialMediaApp.OverviewDetails[0].Label} imgSrc={socialMediaApp.Image} statValue={socialMediaApp.OverviewDetails[0].Count} changeIcon={socialMediaApp.OverviewDetails[0].Change > 0 ? upArrow : downArrow } percentChange={`${socialMediaApp.OverviewDetails[0].Change}%`} />
                 <SmallCard statName={socialMediaApp.OverviewDetails[1].Label} imgSrc={socialMediaApp.Image} statValue={socialMediaApp.OverviewDetails[1].Count} changeIcon={socialMediaApp.OverviewDetails[1].Change > 0 ? upArrow : downArrow } percentChange={`${socialMediaApp.OverviewDetails[1].Change}%`} />

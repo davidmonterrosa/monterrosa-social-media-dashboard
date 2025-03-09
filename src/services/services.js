@@ -1,6 +1,6 @@
 const getSocialMediaData = async () => {
     try {
-        const response = await fetch("/data/data.json");
+        const response = await fetch("../data/data.json");
         const data = await response.json();
         return data;
     } catch (error) {
